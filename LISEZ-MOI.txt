@@ -1,0 +1,56 @@
+ETS DK LAND — ÉDITION PREMIUM MULTIPAGES
+=========================================
+
+PAGES
+- index.html        Accueil / présentation de marque
+- agence.html       Présentation, mission, valeurs
+- services.html     Prestations détaillées
+- galerie.html Galerie filtrable + aperçu plein écran
+- demande.html      Formulaire de demande de devis
+- projet.html       Brief créatif / présentation de projet
+- contact.html      Coordonnées, formulaire et FAQ
+
+FONCTIONS
+- Design responsive mobile / tablette / ordinateur
+- Écran d'introduction cinématique de 5 secondes (logo officiel, compteur et barre de progression), affiché à chaque ouverture du site (pas quand on clique sur « Accueil » depuis une autre page)
+  · Fichiers : loader.js (logique), style.css (section « ÉCRAN DE CHARGEMENT »), index.html (balisage #dk-loader)
+  · Réglages dans loader.js : PROGRESS_MS (durée de la barre, 4000 ms), HOLD_MS, REMOVE_MS
+  · Bouton « Passer » et touche Échap pour sauter l'intro ; désactivée si « mouvement réduit » est activé
+- Animations d'apparition au défilement
+- Barre de progression de lecture
+- Effets de lumière et éléments orbitaux sur l'accueil
+- Navigation mobile
+- Galerie avec filtres et affichage plein écran
+- Formulaires qui préparent un message WhatsApp
+- Liens téléphone, e-mail, WhatsApp et TikTok
+- Respect de prefers-reduced-motion
+
+VISUELS
+- Logo DK LAND fourni
+- 10 pages du portfolio initial
+- 3 nouvelles images : Belle & Bien (2 visuels) et Imad Shop (1 visuel)
+- Les créations ajoutées sont affichées comme visuels de portfolio, en conservant les marques visibles.
+
+COORDONNÉES INTÉGRÉES
+Téléphone : +228 97 30 87 86
+WhatsApp : +228 91 17 33 57
+E-mail : dkland02@gmail.com
+Adresse : Lomé — Adidogomé, Togo
+TikTok : @dk.land2
+
+À CONFIRMER AVANT MISE EN LIGNE
+1. Vérifier que le WhatsApp de réception est bien +228 91 17 33 57.
+2. Confirmer l'adresse géographique précise, horaires et éventuel lien Google Maps.
+3. Fournir logo SVG/PNG transparent si disponible pour une netteté optimale.
+4. Choisir le nom de domaine (ex. dkland.tg ou autre, disponibilité à vérifier).
+5. Après publication HTTPS, générer le QR code final vers la vraie adresse du site.
+
+LIMITES TECHNIQUES ACTUELLES
+- Site statique multi-pages : aucun espace administrateur ni base de données.
+- Les formulaires ouvrent WhatsApp avec un message prérempli ; l'utilisateur doit encore appuyer sur Envoyer.
+- Les fichiers/images de référence doivent être joints directement dans WhatsApp après ouverture.
+- Les polices Google Fonts nécessitent une connexion Internet ; des polices système sont prévues en secours.
+
+APERÇU LOCAL
+Décompresser le ZIP puis ouvrir index.html dans un navigateur.
+Pour une expérience optimale, publier le dossier complet sur un hébergement HTTPS.
